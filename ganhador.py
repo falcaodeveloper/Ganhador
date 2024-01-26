@@ -2,7 +2,10 @@
 
 from random import choice
 
-explicacao = 'Digite o nome de no mínimo 5 participantes para o sorteio.\nTecle ENTER após digitar o nome de cada participante.\nSe desejar sair e ver o ganhador, não digite o nome de ninguém e tecle ENTER.'
+explicacao = '''Digite o nome de no mínimo 5 participantes para o sorteio.
+Tecle ENTER após digitar o nome de cada participante.
+Se desejar sair e ver o ganhador, não digite nada e tecle ENTER.'''
+
 msnEntrada = 'Digite o nome do participante:\n'
 msnSaida = 'É necessário, no minímo, 5 participantes.'
 ganhador = 'Parabéns ao ganhador:\n {0}{1}{0}'
